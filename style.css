@@ -1,0 +1,2798 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8dc6cd;
+
+    
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    'f-1'
+    'mybody'
+    'f-3'
+    'f-4'
+    'f-5';
+    
+}
+
+.f-1{
+
+    grid-area: f-1;
+
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    margin-top: 120px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px black;
+    padding: 70px 60px;
+    color: #6b7b8a;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.f-1 > h1,.f-1 > p{
+    color: #6b7b8a;
+    
+}
+.f-1 > h1{
+    font-size: 2.3em;
+}
+.f-1 > p{
+    font-size: 1.5em;
+    
+}
+
+.block > input{
+    border: 2px solid #8dc6cd;
+    border-radius: 4px;
+    padding: 20px 25px;
+    width: 90%;
+    font-size: 1.5em;
+    color: #6b7b8a;
+    outline: none;
+    transition: background-color 1s;
+}
+.block > input:focus{
+    background-color: #edf8f7;
+    transition: background-color 1s;
+}
+.b-5{
+    margin-top: 30px;
+    font-size: 1.2em;
+    position: relative;
+}
+.b-5  a{
+text-decoration: none;
+color: #8dc6cd;
+}
+.b-5 button{
+    padding: 25px 40px;
+    background-color: #ec4949;
+    outline: none;
+    box-sizing: border-box;
+    border:0;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    right: 28px;
+    bottom: -40px;
+}
+
+.mybody{
+
+    grid-area: mybody;
+
+    padding-top: 85px;
+    padding-bottom: 130px;
+    background: url("images/bg1.png") center/cover no-repeat;
+}
+.f-2{
+    width: 65%;
+    margin: auto;  
+    color: white;
+}
+.f-2 > h1{
+    font-size: 3em;
+}
+.f-2 > h1 >span{
+    color: #81d165;
+    font-weight: bold;
+}
+
+.f-2 > form{
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(189, 189, 189);
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    height: auto;
+    margin-top:100px;
+    position: relative;
+    
+
+}
+
+.f-2 > form > .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #81d165;
+    padding:20px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 25px;
+    left: -40px;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+}
+.header > h1,p{
+    color: #535455;
+    text-align: left;
+}
+hr{
+    margin-top: 60px;
+    color: #bbbbbb;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.buttons span{
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+.buttons > button{
+    margin: 15px;
+}
+
+.buttons:nth-child(1){
+    background-color: #8cd6f4;
+}
+
+.buttons:nth-child(2){
+    background-color: #8d9ec1;
+}
+
+.fab{
+    font-size: 3em;
+}
+
+.small-circle{
+    padding-inline-end: 2px;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+
+
+.twitterbutton{
+    margin-left: -8px;
+    position: relative;
+    top:10%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.twitter_a{
+    display: inline-block;
+    
+}
+
+.twitterbtn{
+
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: left;
+ 
+}
+
+
+
+.twitterbtnLogo{
+    height: 8vh;
+    width: 3vw;
+    background-color: #96C6EB;
+    color: white; 
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+
+
+.twitterbtnText{
+    height: 8vh;
+    width: 7vw;
+    background-color: #A7D2F1;
+    color: white; 
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    margin: auto;
+    font-size: 2em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-sizing: border-box;
+
+    
+
+}
+
+.orellipse{
+    background-color: #D6D6D6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    top:24%;
+    left: 46%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+
+}
+
+.orellipseText{
+    font-size: 14.6pt;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+
+     margin: auto;
+}
+
+
+.facebookbutton{
+    position: relative;
+    top:10%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.facebook_a{
+    display: inline-block;
+    
+}
+
+.facebookbtn{
+
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: left;
+ 
+}
+
+
+
+.facebookbtnLogo{
+    height: 8vh;
+    width: 3vw;
+    background-color: #7880A7;
+    color: white; 
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+
+
+.facebookbtnText{
+    height: 8vh;
+    width: 7vw;
+    background-color: #939ABD;
+    color: white; 
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    margin: auto;
+    font-size: 1.5em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.Bymail{
+  
+    clear: both;
+    vertical-align: bottom;
+  
+    position: relative;
+    box-sizing: border-box;
+
+    margin-left: 45px;
+}
+
+
+.mailborder{
+    
+    height: 30px;
+    width:  100%;
+    border-radius: 15%;
+    margin-left: 3%;
+
+    display: table;
+    width: 95%;
+
+    margin-bottom: 40px;
+
+
+}
+
+.table-row {
+ 
+    display: table-row;
+  
+}
+
+.messageicon{
+    overflow: hidden;
+    white-space: nowrap;
+    
+
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border: 1px solid;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+ 
+}
+
+.messageicon>p{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+
+
+
+.messagebtnText{
+
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 4vh;
+    width: 350px;
+    background-color: #F5F5F5;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    font-size: 1.5em;
+    margin: auto;
+    
+    
+
+
+}
+
+.text1{
+    width: 90%;
+    margin-left: 5px;
+    margin: auto;
+    margin-left: 15px;
+    font-size: 1.5em;
+    border-radius: 5%;
+    border-color: #F5F5F5;
+}
+
+.submit1{
+
+    float:right;
+    background-color: #9BD36D;
+    border-radius: 5%;
+    border: #9BD36D;
+    cursor: pointer;
+    font-size: 40px;
+    height: 60px;
+    width: 160px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+
+    color: white;
+
+    
+  
+}
+
+
+.spantext1{
+    color: #9BD36D;
+    font-style: italic;
+}
+
+.before_spantext1{
+    color: #BDBDBD;
+}
+
+
+.f-3{
+    grid-area: f-3;
+    background: url("images/bg2.png") center/cover no-repeat;
+    height: 145vh;
+    width: 100%;
+}
+
+.f3inside{
+    margin: 0 auto;
+}
+
+.text{
+
+    display: inline-flex;
+    top: 225px;
+    left: 40vw;
+    position: relative;
+    box-sizing: border-box;
+    color: #505050;
+    margin: 0 auto;
+    font-size: 60px;
+ 
+}
+
+.spantext{
+    display: inline-flex;
+    top: 225px;
+    left: 44.5vw;
+    position: relative;
+    box-sizing: border-box;
+    color: #AEAEAE;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.f-3 .i1{
+
+
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+
+    top: 20vh;
+    left: 20vw;
+    
+}
+
+.githublogo{
+    left: -80px;
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 3em;
+    color: white;
+
+}
+
+.f-3 .i2{
+
+
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+
+    top: 12vh;
+    left: 20vw;
+    
+}
+
+.linkedinlogo{
+    left: -35px;
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 0.5em;
+    color: white;
+
+}
+
+.form3{
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    width: auto;
+    height: 45%;
+    z-index: 10;
+    margin: auto;
+
+    border: 1px solid gray;
+    top: 35vh;
+    left: 12vw;
+    
+}
+
+.form3header{
+    background-color: #73B3CA;
+    width:49.55vw;
+    height: 10vh;
+    margin: auto;
+    
+
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.form3header img{
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+   
+
+    padding-left:2.5vw;
+}
+
+
+.form3header>p{
+    font-size: 2vw;
+     color: white;
+     padding-left: 1vw;
+}
+
+
+.form3contentcontainer{
+    display: grid;
+    grid-template-areas: 
+    'form3facebook form3verticalline form3register'
+    'form3horizontalline form3verticalline form3register'
+    'form3login form3verticalline form3register';
+    
+}
+
+
+.form3facebook{
+    grid-area: form3facebook;
+}
+
+.facebookbutton2{
+    position: relative;
+    top:60%;
+    left: 10%;
+}
+
+
+
+.facebookbutton2 span{
+font-weight: bold;
+font-size: 1.5em;
+color: rgb(255, 255, 255);
+position: relative;
+z-index: 4;
+}
+
+
+.facebookbutton2 p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 4;
+    }
+
+.facebook_a2{
+    display: inline-block;
+    
+}
+
+.facebookbtn2{
+
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: left;
+ 
+}
+
+
+
+.facebookbtnLogo2{
+    height: 8vh;
+    width: 3vw;
+    background-color: #424A85;
+    color: white; 
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+
+
+.facebookbtnText2{
+    height: 8vh;
+    width: 12vw;
+    background-color: #4C5593;
+    color: white; 
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    margin: auto;
+    font-size: 1em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.form3verticalline{
+    grid-area: form3verticalline;
+    border-left: 1px solid #828282;
+    height: 38vh;
+    position: relative;
+    box-sizing: border-box;
+    top: 8vh;
+    left: 4vw;
+}
+
+.form3register{
+    grid-area: form3register;
+
+    position: relative;
+    top:15%;
+    left: 10%;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.form3register p{
+    font-size:1em;
+    color: #828282;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.standartlabel{
+    font-size:0.8em;
+    color: #828282;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.standartinput{
+    border-radius: 5%;
+    border-color: #F5F5F5;
+    font-size: 2em;
+    width: 75%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.form3horizontalline{
+    grid-area: form3horizontalline;
+
+    border-bottom: 1px solid #828282;
+    position: relative;
+    box-sizing: border-box;
+
+    top: 6vh;
+    left: 2vw;
+    position: relative;
+    box-sizing: border-box;
+ 
+}
+
+.form3registerbutton{
+
+    background-color: #ECC84F;
+    border-radius: 15%;
+    border: #ECC84F;
+    cursor: pointer;
+    font-size: 40px;
+    height: 50px;
+    width: 150px;
+    top:5vh;
+    left: 10vw;
+
+    position: relative;
+    box-sizing: border-box;
+    
+    color: white;
+
+    
+  
+}
+
+.form3login{
+
+    grid-area: form3login;
+
+    top: 9vh;
+    left: 4vw;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form3loginbutton{
+
+    background-color: #5F9BB8;
+    border-radius: 15%;
+    border: #5F9BB8;
+    cursor: pointer;
+    font-size: 35px;
+    height: 50px;
+    width: 150px;
+    top:3vh;
+    left: 10vw;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    
+    color: white;
+
+    
+  
+}
+
+.form3checkbox{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.standartlabel_plus{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.f-4{
+    grid-area: f-4;
+    background-color: #5F9BB8;
+    height: 145vh;
+    width: 100%;
+}
+
+.f4inside{
+    margin: 0 auto;
+}
+
+.f4inside .text{
+
+    display: inline-flex;
+    top: 225px;
+    left: 25vw;
+    position: relative;
+    box-sizing: border-box;
+    color: #505050;
+    margin: 0 auto;
+    font-size: 40px;
+ 
+}
+
+.f4inside .spantext{
+    display: inline-flex;
+    top: 225px; 
+    left: 25vw;
+    position: relative;
+    box-sizing: border-box;
+    color: #E8E8E8;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+
+.form4{
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #51859D;
+    width: 50%;
+    height: 45%;
+    z-index: 10;
+
+    border: 1px solid gray;
+    top: 35vh;
+    left: 25vw;
+    
+}
+
+.form4header{
+    background-color: #73B3CA;
+    width:49.55vw;
+    height: 10vh;
+    margin: auto;
+    
+
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.form4header img{
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+
+   
+
+    padding-left:2.5vw;
+}
+
+
+.form4header>p{
+    font-size: 2vw;
+     color: white;
+     padding-left: 1vw;
+}
+
+
+.form4contentcontainer{
+    display: grid;
+    grid-template-areas: 
+    'form4facebook form4verticalline form4register'
+    'form4horizontalline form4verticalline form4register'
+    'form4login form4verticalline form4register';
+    
+}
+
+
+.form4facebook{
+    grid-area: form4facebook;
+}
+
+.facebookbutton2{
+    position: relative;
+    top:60%;
+    left: 10%;
+}
+
+
+
+.facebookbutton2 span{
+font-weight: bold;
+font-size: 1.5em;
+color: rgb(255, 255, 255);
+position: relative;
+z-index: 4;
+}
+
+
+.facebookbutton2 p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 4;
+    }
+
+.facebook_a2{
+    display: inline-block;
+    
+}
+
+.facebookbtn2{
+
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: left;
+ 
+}
+
+
+
+.facebookbtnLogo2{
+    height: 8vh;
+    width: 3vw;
+    background-color: #424A85;
+    color: white; 
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+
+
+.facebookbtnText2{
+    height: 8vh;
+    width: 12vw;
+    background-color: #4C5593;
+    color: white; 
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    margin: auto;
+    font-size: 1em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.form4contentcontainer .form4verticalline{
+    grid-area: form4verticalline;
+
+    height: 0vh;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.form4register{
+    grid-area: form4register;
+
+    position: relative;
+    top:5%;
+    left: 10%;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.form4register p{
+    font-size:1em;
+    color: #E8E8E8;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+    bottom:5%;
+    
+}
+
+
+.standartlabel2{
+    font-size:0.8em;
+    color: #E8E8E8;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.standartinput2{
+    border-radius: 5%;
+    border-color: #F5F5F5;
+    font-size: 2em;
+    width: 75%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.standartlabel_plus2{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.form4horizontalline{
+    grid-area: form4horizontalline;
+
+    border-bottom: 1px solid #828282;
+    position: relative;
+    box-sizing: border-box;
+
+    top: 6vh;
+    left: 2vw;
+    position: relative;
+    box-sizing: border-box;
+ 
+}
+
+.form4registerbutton{
+
+    background-color: #ECC84F;
+    border-radius: 15%;
+    border: #ECC84F;
+    cursor: pointer;
+    font-size: 40px;
+    height: 50px;
+    width: 150px;
+    top:4vh;
+    left: 10vw;
+
+    position: relative;
+    box-sizing: border-box;
+    
+    color: white;
+
+    
+  
+}
+
+.form4login{
+
+    grid-area: form4login;
+
+    top: 9vh;
+    left: 4vw;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form4loginbutton{
+
+    background-color: #ECC84F;
+    border-radius: 15%;
+    border: #ECC84F;
+    cursor: pointer;
+    font-size: 35px;
+    height: 50px;
+    width: 150px;
+    top:3vh;
+    left: 10vw;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    
+    color: white;
+
+    
+  
+}
+
+.form4checkbox{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.f5bottomimage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+}
+
+.f5bottomimage1{
+    grid-column: 1;
+
+}
+
+.f5bottomimage2{
+    grid-column: 2;
+    
+
+}
+
+.f5bottomimage1>img{
+    position: relative;
+    top:66.5vh;
+    width: 49vw;
+    left: 0.6vw;
+}
+
+.f5bottomimage2>img{
+    position: relative;
+
+    top:66.5vh;
+
+    width: 49vw;
+   
+
+}
+
+.f-5{
+    grid-area: f-5;
+    background-color: #404954;
+    height: 145vh;
+    width: 100%;
+}
+
+.f5inside{
+    margin: 0 auto;
+}
+
+.f5inside .text{
+
+    display: inline-flex;
+    top: 225px;
+    left: 25vw;
+    position: relative;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-size: 40px;
+ 
+}
+
+.form5{
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 50%;
+    height: 45%;
+    z-index: 10;
+
+    border: 1px solid gray;
+    top: 35vh;
+    left: 25vw;
+    
+}
+
+
+.form5>p{
+    color: white;
+    top:2vh;
+    left: 10vw;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form5loginwith{
+
+    display: grid;
+    grid-template-columns: 7vh 7vh 7vh ;
+    position: relative;
+    box-sizing: border-box;
+    top:10vh;
+    left: 6vw;
+}
+
+.form5facebookimage{
+    grid-column: 1;
+}
+
+.form5facebookimage>i , .form5twitterimage>i , .form5googleplusimage>i {
+   
+    font-size: 10pt;
+   font-style: normal;
+
+}
+
+.form5facebookimage>i  {
+    color: #4F58AA;
+    position: relative;
+    box-sizing: border-box;
+    right: 35px;
+    bottom: 21px;
+    font-size: 15px;
+}
+
+
+ .form5twitterimage>i  {
+    color: #69A3EB;
+    position: relative;
+    box-sizing: border-box;
+    left: 20px;
+    bottom: 39px;
+    font-size: 15px;
+}
+
+
+.form5googleplusimage>i {
+    color: #C54B3D;
+    position: relative;
+    box-sizing: border-box;
+    left: 20px;
+    bottom: 39px;
+    font-size: 15px;
+}
+
+
+
+.form5twitterimage{
+    grid-column: 2;
+}
+
+.form5googleplusimage{
+    grid-column: 3;
+}
+
+
+
+
+.form5login{
+
+    display: grid;
+    grid-template-rows: 10vh 10vh;
+    position: relative;
+    box-sizing: border-box;
+    top:2vh
+}
+
+
+
+
+.standartlabel5{
+    font-size:0.8em;
+    color: #E8E8E8;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+
+    font-size: 1em;
+
+    left:1vw;
+
+    
+}
+
+.standartinput5{
+    border-radius: 5%;
+
+    border-left: 0;
+    border-right:0;
+    border-top:0;
+    border-bottom: 1px solid white;
+
+    background-color: transparent;
+    font-size: 2em;
+    width: 75%;
+    position: relative;
+    box-sizing: border-box;
+
+    left:1vw;
+}
+
+.standartlabel_plus5{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form5login_p1{
+    grid-row: 1;
+}
+
+.form5login_p2{
+    grid-row: 2;
+}
+
+.form5login_p3{
+    grid-row: 3;
+}
+
+.form5loginwith{
+    grid-area: form5login;
+}
+
+
+.form5checkbox{
+    top:7vh;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+
+    left:1vw;
+}
+
+
+
+.form5loginbutton{
+
+    background-color: #404954;
+    border-radius: 5%;
+    border: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 35px;
+    height: 50px;
+    width: 150px;
+    top:3vh;
+    left: 16vw;
+
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    
+    color: white;
+
+    
+  
+}
+
+
+
+
+
+
+
+/* 900px X 1080px*/
+
+
+
+
+@media all and (max-width: 900px) {
+  
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #8dc6cd;
+    
+        
+    }
+    
+    .container{
+        display: grid;
+        grid-template-areas: 
+        'f-1'
+        'mybody'
+        'f-3'
+        'f-4'
+        'f-5';
+        
+    }
+    
+    .f-1{
+    
+        grid-area: f-1;
+    
+        background-color: #fff;
+        width: 45%;
+        margin: auto;
+        margin-top: 120px;
+        border: 1px solid gray;
+        box-shadow: 0 0 5px black;
+        padding: 70px 60px;
+        color: #6b7b8a;
+        font-weight: bold;
+        margin-bottom: 200px;
+    }
+    .f-1 > h1,.f-1 > p{
+        color: #6b7b8a;
+        
+    }
+    .f-1 > h1{
+        font-size: 2.3em;
+    }
+    .f-1 > p{
+        font-size: 1.5em;
+        
+    }
+    
+    .block > input{
+        border: 2px solid #8dc6cd;
+        border-radius: 4px;
+        padding: 20px 25px;
+        width: 90%;
+        font-size: 1.5em;
+        color: #6b7b8a;
+        outline: none;
+        transition: background-color 1s;
+    }
+    .block > input:focus{
+        background-color: #edf8f7;
+        transition: background-color 1s;
+    }
+    .b-5{
+        margin-top: 30px;
+        font-size: 1.2em;
+        position: relative;
+    }
+    .b-5  a{
+    text-decoration: none;
+    color: #8dc6cd;
+    }
+    .b-5 button{
+        padding: 25px 40px;
+        background-color: #ec4949;
+        outline: none;
+        box-sizing: border-box;
+        border:0;
+        font-size: 1.3em;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        position: relative;
+        left: 5vw;
+        bottom: -40px;
+    }
+    
+    .mybody{
+    
+        grid-area: mybody;
+    
+        padding-top: 85px;
+        padding-bottom: 130px;
+        background: url("images/bg1.png") center/cover no-repeat;
+    }
+    .f-2{
+        width: 100vw;
+        margin: auto;  
+        color: white;
+    }
+    .f-2 > h1{
+        font-size: 3em;
+    }
+    .f-2 > h1 >span{
+        color: #81d165;
+        font-weight: bold;
+    }
+    
+    .f-2 > form{
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgb(189, 189, 189);
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        width: 40%;
+        margin: auto;
+        height: auto;
+        margin-top:100px;
+        position: relative;
+        
+    
+    }
+    
+    .f-2 > form > .circle{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #81d165;
+        padding:20px;
+        box-sizing: border-box;
+        position:absolute;
+        top: 25px;
+        left: -40px;
+    }
+    
+    .header{
+        width: 80%;
+        margin: auto;
+    }
+    .header > h1,p{
+        color: #535455;
+        text-align: left;
+    }
+    hr{
+        margin-top: 60px;
+        color: #bbbbbb;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    .buttons span{
+        display: inline-block;
+        width: 110px;
+        height: 30px;
+        border-radius: 8px;
+        margin: 15px;
+        box-sizing: border-box;
+        font-size: 2em;
+    }
+    
+    .buttons > button{
+        margin: 15px;
+    }
+    
+    .buttons:nth-child(1){
+        background-color: #8cd6f4;
+    }
+    
+    .buttons:nth-child(2){
+        background-color: #8d9ec1;
+    }
+    
+    .fab{
+        font-size: 3em;
+    }
+    
+    .small-circle{
+        padding-inline-end: 2px;
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    
+    
+    
+    .twitterbutton{
+        margin-left: -8px;
+        position: relative;
+        top:10%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .twitter_a{
+        display: inline-block;
+        
+    }
+    
+    .twitterbtn{
+    
+        padding: 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        float: left;
+     
+    }
+    
+    
+    
+    .twitterbtnLogo{
+        height: 5vh;
+        width: 3vw;
+        background-color: #96C6EB;
+        color: white; 
+        border-bottom-left-radius: 15%;
+        border-top-left-radius: 15%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 1em;
+    }
+    
+    
+    
+    .twitterbtnText{
+        height: 5vh;
+        width: 8vw;
+        background-color: #A7D2F1;
+        color: white; 
+        border-bottom-right-radius: 15%;
+        border-top-right-radius: 15%;
+        margin: auto;
+        font-size: 1em;
+    
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        box-sizing: border-box;
+    
+        
+    
+    }
+    
+    .orellipse{
+        background-color: #D6D6D6;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    
+        top:24%;
+   
+        left: 44%;
+    
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        box-sizing: border-box;
+        border-collapse: collapse;
+    
+    
+    }
+    
+    .orellipseText{
+        font-size: 14.6pt;
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    
+    }
+    
+    
+    .facebookbutton{
+        position: relative;
+        top:10%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .facebook_a{
+        display: inline-block;
+        
+    }
+    
+    .facebookbtn{
+    
+        padding: 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        float: left;
+     
+    }
+    
+    
+    
+    .facebookbtnLogo{
+        height: 5vh;
+        width: 3vw;
+        background-color: #7880A7;
+        color: white; 
+        border-bottom-left-radius: 15%;
+        border-top-left-radius: 15%;
+        display: inline-flex;
+        align-items: right;
+        justify-content: right;
+        left: 12%;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 1em;
+    }
+    
+    
+    
+    .facebookbtnText{
+        height: 5vh;
+        width: 8vw;
+        left: 12%;
+        background-color: #939ABD;
+        color: white; 
+        border-bottom-right-radius: 15%;
+        border-top-right-radius: 15%;
+        margin: auto;
+        font-size: 0.8em;
+    
+        display: inline-flex;
+        align-items: right;
+        justify-content: right;
+        position: relative;
+        box-sizing: border-box;
+    
+    }
+    
+    .Bymail{
+      
+        clear: both;
+        vertical-align: bottom;
+      
+        position: relative;
+        box-sizing: border-box;
+    
+        margin-left: 45px;
+    }
+    
+    
+    .mailborder{
+        
+        height: 30px;
+        width:  100%;
+        border-radius: 15%;
+        margin-left: 3%;
+    
+        display: table;
+        width: 95%;
+    
+        margin-bottom: 40px;
+    
+    
+    }
+    
+    .table-row {
+     
+        display: table-row;
+      
+    }
+    
+    .messageicon{
+        overflow: hidden;
+        white-space: nowrap;
+        
+    
+        background-color: #F5F5F5;
+        border-bottom-left-radius: 15%;
+        border-top-left-radius: 15%;
+        border: 1px solid;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    
+     
+    }
+    
+    .messageicon>p{
+        color: #BDBDBD;
+        text-decoration: none;
+        font-size: 1.5em;
+        width: 50px;
+        display: inline-flex;
+        position: relative;
+        left: 15px;
+    
+    }
+    
+    
+    
+    
+    .messagebtnText{
+    
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap;
+        height: 6vh;
+        width: 350px;
+        background-color: #F5F5F5;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 5%;
+        font-size: 1.5em;
+        margin: auto;
+        
+        
+    
+    
+    }
+    
+    .text1{
+        width: 90%;
+        margin-left: 5px;
+        margin: auto;
+        margin-left: 15px;
+        font-size: 1.5em;
+        border-radius: 5%;
+        border-color: #F5F5F5;
+    }
+    
+    .submit1{
+    
+        float:right;
+        background-color: #9BD36D;
+        border-radius: 5%;
+        border: #9BD36D;
+        cursor: pointer;
+        font-size: 40px;
+        height: 60px;
+        width: 160px;
+        margin-bottom: 40px;
+        margin-right: 5px;
+    
+        color: white;
+    
+        
+      
+    }
+    
+    
+    .spantext1{
+        color: #9BD36D;
+        font-style: italic;
+    }
+    
+    .before_spantext1{
+        color: #BDBDBD;
+    }
+    
+    
+    .f-3{
+        grid-area: f-3;
+        background: url("images/bg2.png") center/cover no-repeat;
+        height: 145vh;
+        width: 100%;
+    }
+    
+    .f3inside{
+        margin: 0 auto;
+    }
+    
+    .text{
+    
+        display: inline-flex;
+        top: 225px;
+        left: 40vw;
+        position: relative;
+        box-sizing: border-box;
+        color: #505050;
+        margin: 0 auto;
+        font-size: 60px;
+     
+    }
+    
+    .spantext{
+        display: inline-flex;
+        top: 225px;
+        left: 44.5vw;
+        position: relative;
+        box-sizing: border-box;
+        color: #AEAEAE;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    
+    .f-3 .i1{
+    
+    
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+        justify-content: center;
+        align-items: center;
+    
+        top: 30vh;
+        left: 10vw;
+        
+    }
+    
+    .githublogo{
+        left: -80px;
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 3em;
+        color: white;
+    
+    }
+    
+    .f-3 .i2{
+    
+    
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+        justify-content: center;
+        align-items: center;
+    
+        top: 20vh;
+        left: 10vw;
+        
+    }
+    
+    .linkedinlogo{
+        left: -35px;
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 0.5em;
+        color: white;
+    
+    }
+    
+    .form3{
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+        width: auto;
+        height: 45%;
+        z-index: 10;
+        margin: auto;
+    
+        border: 1px solid gray;
+        top: 35vh;
+        left: 12vw;
+        
+    }
+    
+    .form3header{
+        background-color: #73B3CA;
+        width:100%;
+        height: 10vh;
+        margin: auto;
+        
+    
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .form3header img{
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+       
+    }
+    
+    
+    .form3header>p{
+        font-size: 2vw;
+         color: white;
+         padding-left: 1vw;
+    }
+    
+    
+    .form3contentcontainer{
+        display: grid;
+        grid-template-areas: 
+        'form3facebook form3verticalline form3register'
+        'form3horizontalline form3verticalline form3register'
+        'form3login form3verticalline form3register';
+        
+    }
+    
+    
+    .form3facebook{
+        grid-area: form3facebook;
+    }
+    
+    .facebookbutton2{
+        position: relative;
+        top:30%;
+        left: 10%;
+    }
+    
+    
+    
+    .facebookbutton2 span{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 4;
+    }
+    
+    
+    .facebookbutton2 p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 4;
+        }
+    
+    .facebook_a2{
+        display: inline-block;
+        
+    }
+    
+    .facebookbtn2{
+    
+        padding: 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        float: left;
+     
+    }
+    
+    
+    
+    
+    .facebookbtnLogo2{
+        height: 4vh;
+        width: 6vw;
+        background-color: #424A85;
+        color: white; 
+        border-bottom-left-radius: 15%;
+        border-top-left-radius: 15%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 2em;
+    }
+    
+    
+    
+    .facebookbtnText2{
+        height: 4vh;
+        width: 20vw;
+        background-color: #4C5593;
+        color: white; 
+        border-bottom-right-radius: 15%;
+        border-top-right-radius: 15%;
+        margin: auto;
+        font-size: 0.8em;
+    
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+    
+    }
+    
+    .form3verticalline{
+        grid-area: form3verticalline;
+        border-left: 1px solid #828282;
+        height: 38vh;
+        position: relative;
+        box-sizing: border-box;
+        top: 8vh;
+        left: 3.2vw;
+    }
+    
+    .form3register{
+        grid-area: form3register;
+    
+        position: relative;
+        top:15%;
+        left: 10%;
+    
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    
+    .form3register p{
+        font-size:1em;
+        color: #828282;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    
+    .standartlabel{
+        font-size:0.8em;
+        color: #828282;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    
+    .standartinput{
+        border-radius: 5%;
+        border-color: #F5F5F5;
+        font-size: 2em;
+        width: 75%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    
+    .form3horizontalline{
+        grid-area: form3horizontalline;
+    
+        border-bottom: 1px solid #828282;
+        position: relative;
+        box-sizing: border-box;
+    
+        top: 3vh;
+        width: 35vw;
+        left: 2vw;
+        position: relative;
+        box-sizing: border-box;
+     
+    }
+    
+    .form3registerbutton{
+    
+        background-color: #ECC84F;
+        border-radius: 15%;
+        border: #ECC84F;
+        cursor: pointer;
+        font-size: 40px;
+        height: 50px;
+        width: 150px;
+        top:4vh;
+        left: 10vw;
+    
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+    
+    .form3login{
+    
+        grid-area: form3login;
+    
+        top: 9vh;
+        left: 4vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .form3loginbutton{
+    
+        background-color: #5F9BB8;
+        border-radius: 15%;
+        border: #5F9BB8;
+        cursor: pointer;
+        font-size: 35px;
+        height: 50px;
+        width: 150px;
+        top:3vh;
+        left: 20vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+    
+    .form3checkbox{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .standartlabel_plus{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    
+    
+    
+    .f-4{
+        grid-area: f-4;
+        background-color: #5F9BB8;
+        height: 145vh;
+        width: 100%;
+    }
+    
+    .f4inside{
+        margin: 0 auto;
+    }
+    
+    .f4inside .text{
+    
+        display: inline-flex;
+        top: 225px;
+        left: 25vw;
+        position: relative;
+        box-sizing: border-box;
+        color: #505050;
+        margin: 0 auto;
+        font-size: 40px;
+     
+    }
+    
+    .f4inside .spantext{
+        display: inline-flex;
+        top: 225px; 
+        left: 25vw;
+        position: relative;
+        box-sizing: border-box;
+        color: #E8E8E8;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    
+    
+    
+    .form4{
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        background-color: #51859D;
+        width: 50%;
+        height: 45%;
+        z-index: 10;
+    
+        border: 1px solid gray;
+        top: 35vh;
+        left: 25vw;
+        
+    }
+    
+    .form4header{
+        background-color: #73B3CA;
+        width:49.55vw;
+        height: 10vh;
+        margin: auto;
+        
+    
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .form4header img{
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+    
+       
+    
+        padding-left:2.5vw;
+    }
+    
+    
+    .form4header>p{
+        font-size: 2vw;
+         color: white;
+         padding-left: 1vw;
+    }
+    
+    
+    .form4contentcontainer{
+        display: grid;
+        grid-template-areas: 
+        'form4facebook form4verticalline form4register'
+        'form4horizontalline form4verticalline form4register'
+        'form4login form4verticalline form4register';
+        
+    }
+    
+    
+    .form4facebook{
+        grid-area: form4facebook;
+    }
+    
+    .facebookbutton3{
+        position: relative;
+        top:60%;
+        left: 10%;
+    }
+    
+    
+    
+    .facebookbutton3 span{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 4;
+    }
+    
+    
+    .facebookbutton3 p{
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 4;
+        }
+    
+    .facebook_a2{
+        display: inline-block;
+        
+    }
+    
+    .facebookbtn2{
+    
+        padding: 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        float: left;
+     
+    }
+    
+    
+    
+    .facebookbtnLogo2{
+        height: 4vh;
+        width: 6vw;
+        background-color: #424A85;
+        color: white; 
+        border-bottom-left-radius: 15%;
+        border-top-left-radius: 15%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 2em;
+    }
+    
+    
+    
+    .facebookbtnText2{
+        height: 4vh;
+        width: 20vw;
+        background-color: #4C5593;
+        color: white; 
+        border-bottom-right-radius: 15%;
+        border-top-right-radius: 15%;
+        margin: auto;
+        font-size: 0.8em;
+    
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+    
+    }
+    
+    .form4verticalline{
+        grid-area: form4verticalline;
+        border-left: 1px solid #828282;
+        height: 38vh;
+        position: relative;
+        box-sizing: border-box;
+        top: 8vh;
+        left: 5vw;
+    }
+    
+    .form4register{
+        grid-area: form4register;
+    
+        position: relative;
+        top:15%;
+        left: 10%;
+    
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    
+    .form4register p{
+        font-size:1em;
+        color: #E8E8E8;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    
+    
+    .standartlabel2{
+        font-size:0.8em;
+        color: #E8E8E8;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    
+    .standartinput2{
+        border-radius: 5%;
+        border-color: #F5F5F5;
+        font-size: 2em;
+        width: 75%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .standartlabel_plus2{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    
+  .form4contentcontainer  .form4horizontalline{
+        grid-area: form4horizontalline;
+    
+        border-bottom: 1px solid #db1010;
+        position: relative;
+        box-sizing: border-box;
+    
+        top: 2vh;
+        left: 2vw;
+        position: relative;
+        box-sizing: border-box;
+     
+    }
+    
+    .form4login .form4loginbutton{
+    
+        background-color: #5F9BB8;
+        border-radius: 15%;
+        border: #5F9BB8;
+        cursor: pointer;
+        font-size: 35px;
+        height: 50px;
+        width: 150px;
+        top:10vh;
+        left: 1vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+
+
+    .form4registerbutton{
+    
+        background-color: #ECC84F;
+        border-radius: 15%;
+        border: #ECC84F;
+        cursor: pointer;
+        font-size: 40px;
+        height: 50px;
+        width: 150px;
+        top:4vh;
+        left: 1vw;
+    
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+    
+    .form4login{
+    
+        grid-area: form4login;
+    
+        top: 9vh;
+        left: 4vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .form4loginbutton{
+    
+        background-color: #ECC84F;
+        border-radius: 15%;
+        border: #ECC84F;
+        cursor: pointer;
+        font-size: 35px;
+        height: 50px;
+        width: 150px;
+        top:3vh;
+        left: 10vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+    
+    .form4checkbox{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .f5bottomimage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+    }
+    
+    .f5bottomimage1{
+        grid-column: 1;
+    
+    }
+    
+    .f5bottomimage2{
+        grid-column: 2;
+        
+    
+    }
+    
+    .f5bottomimage1>img{
+        position: relative;
+        top:66.5vh;
+        width: 49vw;
+        left: 0.6vw;
+    }
+    
+    .f5bottomimage2>img{
+        position: relative;
+    
+        top:66.5vh;
+    
+        width: 49vw;
+       
+    
+    }
+    
+    .f-5{
+        grid-area: f-5;
+        background-color: #404954;
+        height: 145vh;
+        width: 100%;
+    }
+    
+    .f5inside{
+        margin: 0 auto;
+    }
+    
+    .f5inside .text{
+    
+        display: inline-flex;
+        top: 225px;
+        left: 25vw;
+        position: relative;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        margin: 0 auto;
+        font-size: 40px;
+     
+    }
+    
+    .form5{
+        display: inline-flex;
+        position: relative;
+        box-sizing: border-box;
+        background-color: transparent;
+        width: 50%;
+        height: 45%;
+        z-index: 10;
+    
+        border: 1px solid gray;
+        top: 35vh;
+        left: 25vw;
+        
+    }
+    
+    
+    .form5>p{
+        color: white;
+        top:2vh;
+        left: 5vw;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .form5loginwith{
+    
+        display: grid;
+        grid-template-columns: 7vh 7vh 7vh ;
+        position: relative;
+        box-sizing: border-box;
+        top:10vh;
+        left: 6vw;
+    }
+    
+    
+    .form5facebookimage>i , .form5twitterimage>i , .form5googleplusimage>i {
+       
+        font-size: 10pt;
+       font-style: normal;
+    
+    }
+    
+    .form5facebookimage>i  {
+        color: #4F58AA;
+        position: relative;
+        box-sizing: border-box;
+        right: 35px;
+        bottom: 21px;
+        font-size: 15px;
+    }
+    
+    
+     .form5loginwith .form5twitterimage>i  {
+        color: #69A3EB;
+        position: relative;
+        box-sizing: border-box;
+        display: inline-flex;
+        left: -4vw;
+        top: -23px;
+        font-size: 15px;
+    }
+    
+    
+    .form5googleplusimage>i {
+        color: #C54B3D;
+        position: relative;
+        box-sizing: border-box;
+        left: 20px;
+        bottom: 39px;
+        font-size: 15px;
+    }
+    
+    .form5facebookimage{
+        grid-column: 1;
+
+        position: relative;
+        box-sizing: border-box;
+        right: 5vw;
+    }
+    
+    
+    .form5twitterimage{
+        grid-column: 2;
+        position: relative;
+        box-sizing: border-box;
+        right: 5vw;
+    }
+    
+    .form5googleplusimage{
+        grid-column: 3;
+
+        position: relative;
+        box-sizing: border-box;
+        right: 5vw;
+    }
+    
+    
+    
+    
+    .form5login{
+    
+        display: grid;
+        grid-template-rows: 10vh 10vh;
+        position: relative;
+        box-sizing: border-box;
+        top:2vh
+    }
+    
+    
+    
+    
+    .standartlabel5{
+        font-size:0.8em;
+        color: #E8E8E8;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+    
+        font-size: 1em;
+    
+        left:1vw;
+    
+        
+    }
+    
+    .standartinput5{
+        border-radius: 5%;
+    
+        border-left: 0;
+        border-right:0;
+        border-top:0;
+        border-bottom: 1px solid white;
+    
+        background-color: transparent;
+        font-size: 2em;
+        width: 75%;
+        position: relative;
+        box-sizing: border-box;
+    
+        left:1vw;
+    }
+    
+    .standartlabel_plus5{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .form5login_p1{
+        grid-row: 1;
+    }
+    
+    .form5login_p2{
+        grid-row: 2;
+    }
+    
+    .form5login_p3{
+        grid-row: 3;
+    }
+    
+    .form5loginwith{
+        grid-area: form5login;
+    }
+    
+    
+    .form5checkbox{
+        top:7vh;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+    
+        left:1vw;
+    }
+    
+    
+    
+    .form5loginbutton{
+    
+        background-color: #404954;
+        border-radius: 5%;
+        border: 5px;
+        border: 1px solid white;
+        cursor: pointer;
+        font-size: 35px;
+        height: 50px;
+        width: 150px;
+        top:3vh;
+        left: 16vw;
+    
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        
+        color: white;
+    
+        
+      
+    }
+
+}
+  
+
+
